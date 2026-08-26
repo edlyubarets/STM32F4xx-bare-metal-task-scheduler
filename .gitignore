@@ -1,0 +1,11 @@
+Debug/
+Release/
+.settings/
+.vscode/
+*.launch
+*.elf
+*.map
+*.list
+*.o
+*.bin
+*.hex
