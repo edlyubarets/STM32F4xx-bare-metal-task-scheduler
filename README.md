@@ -21,7 +21,7 @@ This scheduler manages 4 user tasks which are used for blinking onboard LEDs & 1
 
 - **Context switch:**
  
-  Context switching happens in PendSV handler. PendSV interrupt happens after pending PendSV in special function.
+  Context switching happens in PendSV handler. PendSV exception happens after pending PendSV in special function.
   Task scheduling is triggered every 1ms by a SysTick timer interrupt.
 
 - **Stack frame:**
